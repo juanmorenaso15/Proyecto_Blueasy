@@ -8,7 +8,7 @@
 
 .principal {
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/Fondo.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/Fondo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -243,7 +243,7 @@
 }
 
 .seccionseis {
-    background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('/assets/images/bg_whoIs.png');
+    background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('../assets/images/bg_whoIs.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -328,7 +328,7 @@
 }
 
 .seciconocho {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/bg_contact.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/bg_contact.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -723,7 +723,7 @@ footer .footerdos a {
     }
 
     .seccionseis {
-        background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('/assets/images/bg_whoIs.png');
+        background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('../assets/images/bg_whoIs.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -838,7 +838,7 @@ footer .footerdos a {
     }
 
     .seciconocho {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/bg_contact.png');
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/bg_contact.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -960,22 +960,12 @@ footer .footerdos a {
         padding: 100px 110px 100px 110px;
     }
 
-  
-
-
-
     .secciondivseis .logo-tres h2 {
         color: white;
         margin: 0 0 50px 80px;
     }
 
-     .seccionseis {
-        background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('/assets/images/bg_whoIs.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        padding: 100px 50px;
-    }
+    
 
     .secciondivseis {
         color: white;
