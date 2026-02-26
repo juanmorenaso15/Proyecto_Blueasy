@@ -569,7 +569,11 @@ footer .footerdos a {
         margin: 100px 150px 0 0;
         height: 130vh;
     }
+
 }
+
+
+
 
 @media screen and (min-width: 990px) and (max-width: 1069px) {
     .dosseccion {
@@ -606,6 +610,10 @@ footer .footerdos a {
     }
 }
 
+
+
+
+
 @media screen and (min-width: 921px) and (max-width: 989px) {
     .dosseccion {
         grid-template-columns: repeat(2, 1fr);
@@ -636,6 +644,9 @@ footer .footerdos a {
         height: 130vh;
     }
 }
+
+
+
 
 @media screen and (max-width: 920px) {
 
@@ -672,30 +683,78 @@ footer .footerdos a {
         height: 170vh;
     }
 
-    .secciondivcuatro,
+
     .seis,
     .parteunoocho,
     .secciondivcinco,
     .secciondivsiete {
         grid-template-columns: 1fr;
-        /* Una sola columna */
         text-align: center;
     }
+
+
+    .seccioncuatro {
+        background: #546e7a;
+        padding: 100px 30px;
+
+
+    }
+
+    .secciondivcuatro {
+        display: block;
+        gap: 60px;
+        text-align: center;
+    }
+
+
 
     .imagencuatro {
-        order: -1;
-    }
-
-    /* Imagen arriba del texto */
-
-    .secciondivcinco .logo-tres:nth-child(2),
-    .secciondivsiete .logo-tres:nth-child(2) {
         text-align: center;
-        grid-column: 1;
     }
+
+    .imagencuatro img {
+        margin: auto;
+        max-width: 100%;
+        height: 100;
+    }
+
+    .seccioncinco {
+        padding: 100px 30px;
+    }
+
+    .seccionseis {
+        background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('/assets/images/bg_whoIs.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 100px 30px;
+    }
+
+    .secciondivseis {
+        color: white;
+    }
+
+    .secciondivseis .logo-tres h2 {
+        color: white;
+        margin: 0 0 50px 200px;
+    }
+
+    .seis {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+    .seccionsiete {
+        background: #ffffff;
+        padding: 100px 30px;
+    }
+
+
+
+
 }
 
-/* Smartphones (352px - 768px) */
 @media screen and (max-width: 768px) {
     .dosseccion {
         grid-template-columns: 1fr;
@@ -712,40 +771,8 @@ footer .footerdos a {
     .secciondivsiete h3 {
         font-size: 40px;
     }
-}
 
-/* Móviles muy pequeños */
-@media screen and (max-width: 480px) {
-    .imagenes-tres {
-        grid-template-columns: 1fr;
-    }
-
-    .dosseccion {
-        padding: 50px 20px;
-    }
-}
-
-/* ==========================================================================
-   5. FOOTER
-   ========================================================================== */
-footer {
-    background: #374048;
-    color: #515e69;
-    padding: 40px 20px;
-}
-
-.footertodo {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-
-@media screen and (max-width: 768px) {
-    .footertodo {
+        .footertodo {
         flex-direction: column;
         text-align: center;
     }
@@ -759,3 +786,207 @@ footer {
         display: none;
     }
 }
+
+
+@media screen and (max-width:738px) {
+
+    .nav-links,
+    .nav-links-tres {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .imagenes-tres {
+        display: grid;
+        grid-template-columns: repeat(2, 280px);
+        grid-template-rows: 300px 300px 300px 100px;
+        gap: 10px;
+        margin: 0 10px;
+    }
+
+    .tresseccion {
+        height: 170vh;
+    }
+
+}
+
+@media screen and (max-width:718px) {
+
+    .nav-links,
+    .nav-links-tres {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .imagenes-tres {
+        display: grid;
+        grid-template-columns: repeat(2, 280px);
+        grid-template-rows: 300px 300px 300px 100px;
+        gap: 8px;
+        margin: 0 0 0 50px;
+    }
+
+    .imagenes-tres img {
+        width: 80%;
+        margin: 0 0 10px 0;
+
+    }
+
+    .tresseccion {
+        height: 200vh;
+        margin: 0 10px 0 0;
+    }
+
+    .seciconocho {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/bg_contact.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 100px 30px;
+    }
+
+
+    .parteunoocho {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+    }
+
+    .secciondivseis {
+        display: block;
+        color: white;
+    }
+
+    .seis {
+        display: block;
+    }
+
+    .seisredes {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 617px) {
+       .imagenes-tres {
+        display: grid;
+        grid-template-columns: repeat(2, 280px);
+        grid-template-rows: 300px 300px 300px 100px;
+        gap: 8px;
+        margin: 0 0 0 25px;
+    }
+
+    .imagenes-tres img {
+        width: 75%;
+        margin: 0 0 100px 0;
+
+    }
+    
+
+  
+}
+
+@media screen and (max-width: 592px) {
+       .imagenes-tres {
+        display: block;
+        justify-content: center;
+        grid-template-columns: repeat(2, 280px);
+        grid-template-rows: 300px 300px 300px 100px;
+        gap: 8px;
+    }
+
+    .imagenes-tres img {
+        width: 40%;
+        margin: 0 0 10px 150px;
+    
+
+    }
+
+      .tresseccion {
+   
+        height: 290vh;
+        margin: 0 1px 0 0;
+    }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+   
+
+    .dosseccion {
+        padding: 50px 20px;
+    }
+
+        .tresseccion {
+   
+        height: 240vh;
+        margin: 0 1px 0 0;
+    }
+      .imagenes-tres img {
+        width: 40%;
+        margin: 0 0 10px 110px;
+    
+
+    }
+
+     .dosseccion {
+        padding: 100px 110px 100px 110px;
+    }
+}
+
+
+
+@media screen and (max-width: 390px) {
+   
+
+    .dosseccion {
+        padding: 50px 20px;
+    }
+
+        .tresseccion {
+   
+        height: 290vh;
+    }
+      .imagenes-tres img {
+        width: 50%;
+        margin: 0 0 50px 70px;
+    
+
+    }
+
+     .dosseccion {
+        padding: 100px 110px 100px 110px;
+    }
+
+  
+
+
+
+    .secciondivseis .logo-tres h2 {
+        color: white;
+        margin: 0 0 50px 80px;
+    }
+
+     .seccionseis {
+        background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('/assets/images/bg_whoIs.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 100px 50px;
+    }
+
+    .secciondivseis {
+        color: white;
+    }
+
+     .seisredes {
+        display: block;
+        justify-content: center;
+    }
+  
+}
+
+
+
