@@ -8,7 +8,7 @@
 
 .principal {
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/Fondo.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/fondo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -243,7 +243,7 @@
 }
 
 .seccionseis {
-    background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('../assets/images/bg_whoIs.png');
+    background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('../assets/images/bg_whols.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -723,7 +723,7 @@ footer .footerdos a {
     }
 
     .seccionseis {
-        background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('../assets/images/bg_whoIs.png');
+        background: linear-gradient(rgba(206, 204, 204, 0.127), rgba(206, 204, 204, 0.127)), url('../assets/images/bg_whols.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
